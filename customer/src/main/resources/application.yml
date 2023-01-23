@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: customer
+    title: customer
+    version: 1.0.0
+
+application:
+  title: customer
+  version: 1.0.0

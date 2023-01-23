@@ -6,7 +6,11 @@
 
   <groupId>com.sedlarski</groupId>
   <artifactId>microservices</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>customer</module>
+  </modules>
 
   <name>microservices</name>
   <!-- FIXME change it to the project's website -->
@@ -24,7 +28,7 @@
     <dependencies>
       <dependency>
         <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot</artifactId>
+        <artifactId>spring-boot-dependencies</artifactId>
         <version>${spring.boot.dependency.version}</version>
         <scope>import</scope>
         <type>pom</type>
