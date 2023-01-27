@@ -1,4 +1,4 @@
-package com.sedlarski.fraud;
+package com.sedlarski.clients.fraud;
 
 public record FraudCheckResponse(Boolean isFraudster) {
 }
