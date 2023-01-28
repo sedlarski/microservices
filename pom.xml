@@ -13,6 +13,7 @@
     <module>fraud</module>
     <module>eurika-server</module>
       <module>clients</module>
+    <module>notification</module>
   </modules>
 
   <name>microservices</name>
